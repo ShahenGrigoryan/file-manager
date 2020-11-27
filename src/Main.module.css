@@ -1,0 +1,60 @@
+:root{
+    --dark:#383A45;
+    --light:#545662;
+}
+
+.toolbar{
+    background-color: var(--dark);
+}
+
+.content{
+    padding: 10px 0;
+}
+.fileModal{
+    display: flex;
+    flex-direction: column;
+    padding: 15px 25px;
+    background: var(--light);
+    width: 400px;
+}
+.fileContent{
+    resize: none;
+    width: 100%;
+    height: 200px;
+    background-color: transparent;
+    color: #fff;
+    outline: none;
+    margin: 10px 0;
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
+
+.label{
+    color: #fff;
+}
+
+.sidebarContainer{
+    width:20%
+}
+
+.mainContainer{
+    width:80%
+}
+.toolbarIcon{
+    width:25px;
+    height:25px
+}
+
+.buttonContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+}
+
+.emptyFolderText{
+    padding:0 30px;
+    font-size: 18px;
+    color: #d24848
+}
